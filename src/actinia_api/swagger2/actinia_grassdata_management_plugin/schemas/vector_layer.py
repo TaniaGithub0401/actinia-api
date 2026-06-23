@@ -21,6 +21,7 @@
 #######
 
 """Vector layer resources."""
+
 import secrets
 from copy import deepcopy
 
