@@ -129,12 +129,12 @@ class STRDSRasterListResponseModel(ProcessingResponseModel):
                     "where=start_time>'2010-01-01'",
                     "separator=|",
                     (
-                    "columns=id,start_time,end_time,north,south,east,west,min,"
-                    "max,rows,cols"
+                        "columns=id,start_time,end_time,north,south,east,west,min,"
+                        "max,rows,cols"
                     ),
                     (
-                    "output=/home/soeren/actinia/workspace/temp_db/"
-                    "gisdbase_1b72938d2ef54c199f6627b8720f21e1/.tmp/tmptps71vn7"
+                        "output=/home/soeren/actinia/workspace/temp_db/"
+                        "gisdbase_1b72938d2ef54c199f6627b8720f21e1/.tmp/tmptps71vn7"
                     ),
                     "-u",
                 ],
